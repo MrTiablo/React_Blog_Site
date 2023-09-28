@@ -1,0 +1,43 @@
+/* Viewblog.css */
+
+/* Container for the blog cards */
+.cards{
+    display: flex;
+    margin: 50px;
+}
+.viewblog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  
+ 
+  }
+  
+  /* Style for individual blog cards */
+  .card {
+    width: 18rem;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    background-color: black;
+    color: #ccc;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
